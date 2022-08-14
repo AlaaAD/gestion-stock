@@ -6,6 +6,7 @@ import {PageDashboardComponent} from "./pages/page-dashboard/page-dashboard.comp
 import {PageStatistiquesComponent} from "./pages/page-statistiques/page-statistiques.component";
 import {PageArticlesComponent} from "./pages/articles/page-articles/page-articles.component";
 import {NouveauArticleComponent} from "./pages/articles/nouveau-article/nouveau-article.component";
+import {PageMouvementStockComponent} from "./pages/mouvement-stock/page-mouvement-stock/page-mouvement-stock.component";
 
 const routes: Routes = [
   {
@@ -31,6 +32,10 @@ const routes: Routes = [
       {
         path : 'addArticle',
         component : NouveauArticleComponent
+      },
+      {
+        path : 'mouvementStock',
+        component : PageMouvementStockComponent
       }
     ]
   },

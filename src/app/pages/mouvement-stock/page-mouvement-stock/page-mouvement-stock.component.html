@@ -1,0 +1,55 @@
+<div class="col">
+  <div class="row m-3">
+    <div class="col-md-8 p-0">
+      <h1>Mouvements des stocks</h1>
+    </div>
+    <div class="col-md-4 text-end">
+      <app-bouttons-action></app-bouttons-action>
+    </div>
+  </div>
+  <div class="col m-3">
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingTwo">
+          <button class="accordion-button collapsed" style="display: block" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            <app-detail-mouvement-stock-article></app-detail-mouvement-stock-article>
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse scroll-vertical" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <app-detail-mouvement-stock></app-detail-mouvement-stock>
+            <app-detail-mouvement-stock></app-detail-mouvement-stock>
+            <app-detail-mouvement-stock></app-detail-mouvement-stock>
+            <app-detail-mouvement-stock></app-detail-mouvement-stock>
+            <app-detail-mouvement-stock></app-detail-mouvement-stock>
+            <app-detail-mouvement-stock></app-detail-mouvement-stock>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="accordion accordion-flush" id="accordionFlushExamplee">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingTwoo">
+          <button class="accordion-button collapsed" style="display: block" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwoo" aria-expanded="false" aria-controls="flush-collapseTwoo">
+            <app-detail-mouvement-stock-article></app-detail-mouvement-stock-article>
+          </button>
+        </h2>
+        <div id="flush-collapseTwoo" class="accordion-collapse collapse scroll-vertical" aria-labelledby="flush-headingTwoo" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <app-detail-mouvement-stock></app-detail-mouvement-stock>
+            <app-detail-mouvement-stock></app-detail-mouvement-stock>
+            <app-detail-mouvement-stock></app-detail-mouvement-stock>
+            <app-detail-mouvement-stock></app-detail-mouvement-stock>
+            <app-detail-mouvement-stock></app-detail-mouvement-stock>
+            <app-detail-mouvement-stock></app-detail-mouvement-stock>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <app-pagination></app-pagination>
+    </div>
+  </div>
+</div>

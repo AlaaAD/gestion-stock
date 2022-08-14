@@ -14,6 +14,9 @@ import { DetailArticleComponent } from './composants/detail-article/detail-artic
 import { PaginationComponent } from './composants/pagination/pagination.component';
 import { BouttonsActionComponent } from './composants/bouttons-action/bouttons-action.component';
 import { NouveauArticleComponent } from './pages/articles/nouveau-article/nouveau-article.component';
+import { PageMouvementStockComponent } from './pages/mouvement-stock/page-mouvement-stock/page-mouvement-stock.component';
+import { DetailMouvementStockArticleComponent } from './composants/detail-mouvement-stock-article/detail-mouvement-stock-article.component';
+import { DetailMouvementStockComponent } from './composants/detail-mouvement-stock/detail-mouvement-stock.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +31,10 @@ import { NouveauArticleComponent } from './pages/articles/nouveau-article/nouvea
     DetailArticleComponent,
     PaginationComponent,
     BouttonsActionComponent,
-    NouveauArticleComponent
+    NouveauArticleComponent,
+    PageMouvementStockComponent,
+    DetailMouvementStockArticleComponent,
+    DetailMouvementStockComponent
   ],
   imports: [
     BrowserModule,
