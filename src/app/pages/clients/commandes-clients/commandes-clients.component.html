@@ -1,0 +1,47 @@
+<div class="col">
+  <div class="row m-3">
+    <div class="col-md-8 p-0">
+      <h1>Commandes Clients</h1>
+    </div>
+    <div class="col-md-4 text-end">
+      <app-bouttons-action (clickEvent)="ajouterCommandeClient()"></app-bouttons-action>
+    </div>
+  </div>
+  <div class="col m-3">
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingTwo">
+          <button class="accordion-button collapsed" style="display: block" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo" aria-expanded="true" aria-controls="flush-collapseTwo">
+            <app-detail-commande-client-fournisseur></app-detail-commande-client-fournisseur>
+          </button>
+        </h2>
+
+        <div id="flush-collapseTwo" class="accordion-collapse collapse scroll-vertical"
+             aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <app-detail-commande></app-detail-commande>
+            <app-detail-commande></app-detail-commande>
+            <app-detail-commande></app-detail-commande>
+            <app-detail-commande></app-detail-commande>
+            <app-detail-commande></app-detail-commande>
+            <app-detail-commande></app-detail-commande>
+
+
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="row">
+            <div class="col-md-6 text-start"><h5>12 articles commandes</h5></div>
+            <div class="col-md-6 text-end"><h5>Total commandes : 123.69</h5></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <app-pagination></app-pagination>
+    </div>
+  </div>
+</div>

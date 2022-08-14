@@ -54,19 +54,19 @@ export class MenuComponent implements OnInit {
       id : "3",
       titre : 'Clients',
       icon : 'fa-solid fa-users-line',
-      url : '',
+      url : 'clients',
       sousMenu : [
         {
           id : "31",
           titre : "Clients",
           icon : 'fa-solid fa-users-rays',
-          url : '',
+          url : 'clients',
         },
         {
           id : "32",
           titre : "Commandes clients",
           icon : 'fas fa-shopping-basket',
-          url : '',
+          url : 'commandesClients',
         }
       ]
     },
@@ -74,19 +74,19 @@ export class MenuComponent implements OnInit {
       id : "4",
       titre : 'Fournisseurs',
       icon : 'fas fa-users',
-      url : '',
+      url : 'fournisseurs',
       sousMenu : [
         {
           id : "41",
           titre : "Fournisseurs",
           icon : 'fas fa-users',
-          url : '',
+          url : 'fournisseurs',
         },
         {
           id : "42",
           titre : "Commandes fournisseurs",
           icon : 'fas fa-truck',
-          url : '',
+          url : 'commandesFournisseurs',
         }
       ]
     },
@@ -100,13 +100,13 @@ export class MenuComponent implements OnInit {
           id : "51",
           titre : "Catégories",
           icon : 'fa-solid fa-screwdriver-wrench',
-          url : '',
+          url : 'categories',
         },
         {
           id : "52",
           titre : "Utilisateurs",
           icon : 'fa-solid fa-users-gear',
-          url : '',
+          url : 'utilisateurs',
         }
       ]
     }

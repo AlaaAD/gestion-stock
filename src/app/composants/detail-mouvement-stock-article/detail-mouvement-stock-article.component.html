@@ -1,6 +1,6 @@
 <div class="row mb-1 mr-0 custom-border">
   <div class="col-md-1 custom-border-right p-1 text-center mt-1 mb-1">
-    <img src="assets/product.png" width="100px" height="100px">
+    <img src="assets/product.png" width="100px" height="100px" alt="image produit">
   </div>
   <!--Détails articles-->
   <div class="col-md-5 custom-border-right mt-1 mb-1">
@@ -34,14 +34,14 @@
   <!--Bouttons d'action-->
   <div class="col-md-3 mt-1 mb-1">
     <div class="col-md-12 text-center">
-      <button type="button" class="btn btn-link " data-bs-target="#exampleModal1" data-bs-toggle="modal" data-whatever="@getbootstrap" >
+      <button type="button" class="btn btn-link " data-bs-target="#modalCorrectionDuStock" data-bs-toggle="modal" >
         <i class="fab fa-stack-overflow blue-color"></i>&nbsp;Correction du stock</button>
     </div>
   </div>
 </div>
 
 <!--Popup correction du stock-->
-<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="modalCorrectionDuStock" tabindex="-1" aria-labelledby="modalCorrectionDuStock" aria-hidden="true" >
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -51,7 +51,7 @@
       <div class="modal-body">
         <div class="row">
           <div class="col-md-6">
-            <img src="assets/product.png" width="100px" height="100px">
+            <img src="assets/product.png" width="100px" height="100px" alt="image produit">
 
           </div>
           <div class="col-md-6">
@@ -60,7 +60,7 @@
                 <input type="text" class="form-control" placeholder="Quantité">
               </div>
               <div class="mb-3">
-                <select  class="form-control">
+                <select  class="form-control form-select">
                   <option>Type de correction</option>
                   <option>Correction positive</option>
                   <option>Correction négative</option>

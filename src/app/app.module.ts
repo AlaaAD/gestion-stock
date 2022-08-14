@@ -17,6 +17,25 @@ import { NouveauArticleComponent } from './pages/articles/nouveau-article/nouvea
 import { PageMouvementStockComponent } from './pages/mouvement-stock/page-mouvement-stock/page-mouvement-stock.component';
 import { DetailMouvementStockArticleComponent } from './composants/detail-mouvement-stock-article/detail-mouvement-stock-article.component';
 import { DetailMouvementStockComponent } from './composants/detail-mouvement-stock/detail-mouvement-stock.component';
+import { DetailClientFournisseurComponent } from './composants/detail-client-fournisseur/detail-client-fournisseur.component';
+import { PageClientsComponent } from './pages/clients/page-clients/page-clients.component';
+import { PageFournisseursComponent } from './pages/fournisseurs/page-fournisseurs/page-fournisseurs.component';
+import { NouveauClientFournisseurComponent } from './composants/nouveau-client-fournisseur/nouveau-client-fournisseur.component';
+import { NouveauClientComponent } from './pages/clients/nouveau-client/nouveau-client.component';
+import { NouveauFournisseurComponent } from './pages/fournisseurs/nouveau-fournisseur/nouveau-fournisseur.component';
+import { DetailCommandeClientFournisseurComponent } from './composants/detail-commande-client-fournisseur/detail-commande-client-fournisseur.component';
+import { CommandesFournisseursComponent } from './pages/fournisseurs/commandes-fournisseurs/commandes-fournisseurs.component';
+import { CommandesClientsComponent } from './pages/clients/commandes-clients/commandes-clients.component';
+import { DetailCommandeComponent } from './composants/detail-commande/detail-commande.component';
+import { NouvelleCommandeClientFournisseurComponent } from './composants/nouvelle-commande-client-fournisseur/nouvelle-commande-client-fournisseur.component';
+import { DetailNouvelleCommandeComponent } from './composants/detail-nouvelle-commande/detail-nouvelle-commande.component';
+import { PageCategoriesComponent } from './pages/categories/page-categories/page-categories.component';
+import { NouvelleCategorieComponent } from './pages/categories/nouvelle-categorie/nouvelle-categorie.component';
+import { DetailCategorieComponent } from './composants/detail-categorie/detail-categorie.component';
+import { PageUtilisateursComponent } from './pages/utilisateurs/page-utilisateurs/page-utilisateurs.component';
+import { NouveauUtilisateurComponent } from './pages/utilisateurs/nouveau-utilisateur/nouveau-utilisateur.component';
+import { PageProfilComponent } from './pages/profil/page-profil/page-profil.component';
+import { ChangerMotDePasseComponent } from './pages/profil/changer-mot-de-passe/changer-mot-de-passe.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +53,26 @@ import { DetailMouvementStockComponent } from './composants/detail-mouvement-sto
     NouveauArticleComponent,
     PageMouvementStockComponent,
     DetailMouvementStockArticleComponent,
-    DetailMouvementStockComponent
+    DetailMouvementStockComponent,
+    DetailClientFournisseurComponent,
+    PageClientsComponent,
+    PageFournisseursComponent,
+    NouveauClientFournisseurComponent,
+    NouveauClientComponent,
+    NouveauFournisseurComponent,
+    DetailCommandeClientFournisseurComponent,
+    CommandesFournisseursComponent,
+    CommandesClientsComponent,
+    DetailCommandeComponent,
+    NouvelleCommandeClientFournisseurComponent,
+    DetailNouvelleCommandeComponent,
+    PageCategoriesComponent,
+    NouvelleCategorieComponent,
+    DetailCategorieComponent,
+    PageUtilisateursComponent,
+    NouveauUtilisateurComponent,
+    PageProfilComponent,
+    ChangerMotDePasseComponent
   ],
   imports: [
     BrowserModule,
